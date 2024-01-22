@@ -1,12 +1,21 @@
-/* This is a comment */
-@import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');
+/*@import url('https://fonts.googleapis.com/css2?family=Rubik+Lines&display=swap');*/
 
 body {
     background-color: #242424;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    text-align: center; /* Center the content inside the container */
 }
 
 #display {
-    color: #b80000;
+    color: #ff0000;
+    /*font-family: 'Rubik Lines', system-ui;*/
     font-size: 50px;
 }
 
@@ -22,5 +31,7 @@ a {
 }
 
 h1 {
-    color: #d4d4d4;
+    color: #cecece;
 }
+
+/* Rest of your CSS remains unchanged */
