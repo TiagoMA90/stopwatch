@@ -6,24 +6,32 @@
     <meta name="description" content="Stopwatch chrono watch">
     <meta name="keywords" content="Stopwatch, Timer, Counter, Sprint">
     <meta name="author" content="Tiago Moura">
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
     <title>Stopwatch</title>
 </head>
 <body>
 
-    <h1 is="myH1">Stopwatch</h1>
-    <div id="container">
-        <div id="display">
-            <span><i class="fa-solid fa-hourglass"></i></span> 00:00:00:00
-        </div>
-        <div id="controls">
-            <button id="startBtn" onclick="start()"><i class="fa-solid fa-play"></i></button>
-            <button id="stopBtn" onclick="stop()"><i class="fa-solid fa-pause"></i></button>
-            <button id="resetBtn" onclick="reset()"><i class="fa-solid fa-power-off"></i></button>
+    <div class="container mt-5">
+        <h1 class="text-center mb-0"><i class="fa-solid fa-stopwatch"></i></h1>
+        <div id="container" class="text-center">
+            <div id="display" class="text-monospace">
+                <div class="row justify-content-center" id="hours">00:00:00:00</div>
+            </div>
+            <div id="controls" class="mt-3">
+                <button class="btn btn-success" id="startBtn" onclick="start()"><i class="fas fa-play"></i></button>
+                <button class="btn btn-primary" id="stopBtn" onclick="stop()"><i class="fas fa-pause"></i></button>
+                <button class="btn btn-danger" id="resetBtn" onclick="reset()"><i class="fas fa-power-off"></i></button>
+            </div>
         </div>
     </div>
 
-    <script src="https://kit.fontawesome.com/9a3068bd82.js" crossorigin="anonymous"></script>
+    <!-- Bootstrap JS and Popper.js -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.min.js"></script>
+
+    <!-- Your custom JavaScript -->
     <script src="index.js"></script>
 </body>
 </html>
