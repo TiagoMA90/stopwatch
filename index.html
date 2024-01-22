@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Stopwatch chrono watch">
+    <meta name="keywords" content="Stopwatch, Timer, Counter, Sprint">
+    <meta name="author" content="Tiago Moura">
+    <link rel="stylesheet" href="styles.css">
+    <title>Stopwatch</title>
+</head>
+<body>
+
+    <h1 is="myH1">Stopwatch</h1>
+    <div id="container">
+        <div id="display">
+            <span><i class="fa-solid fa-hourglass"></i></span> 00:00:00:00
+        </div>
+        <div id="controls">
+            <button id="startBtn" onclick="start()"><i class="fa-solid fa-play"></i></button>
+            <button id="stopBtn" onclick="stop()"><i class="fa-solid fa-pause"></i></button>
+            <button id="resetBtn" onclick="reset()"><i class="fa-solid fa-power-off"></i></button>
+        </div>
+    </div>
+
+    <script src="https://kit.fontawesome.com/9a3068bd82.js" crossorigin="anonymous"></script>
+    <script src="index.js"></script>
+</body>
+</html>
