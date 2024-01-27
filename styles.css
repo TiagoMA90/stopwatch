@@ -34,4 +34,7 @@ h1 {
     color: #cecece;
 }
 
-/* Rest of your CSS remains unchanged */
+.btn-success, .btn-primary, .btn-danger {
+    height: 50px;
+    width: 50px;
+}
