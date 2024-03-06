@@ -1,9 +1,11 @@
 # stopwatch
-The 'Stopwatch' website is an interactive page for people who want to make use of digital timer.
-Visitors of this website will be able to Start, Pause and Stop/Reset the timer.
+The 'Stopwatch' application is an interactive page for people who want to make use of digital timer.
+Visitors of this app will be able to Start, Pause and Stop/Reset the timer.
 
 ## Live project
-The Live website can be found [here](https://tiagoma90.github.io/stopwatch/).
+The Live app can be found [here](https://tiagoma90.github.io/stopwatch/).
+
+<img src="./images/bytesDevStopwatch.png" alt="bytesDev Stopwatch">
 
 ## Purpose of the website.
 - To allow users to use the timer on their free time, such as sports.
@@ -29,7 +31,10 @@ The website was developed with the intent to offer interactive features:
 - The icon above the timer, of a hourgalss was animated according to the actions of a user. When "Play" is pressed, it rotates clockwise. When "Pause" is hit, the hourglass rests sideways. When "Stop" is pushed, the hourglass is marked as empty from the start. 
 
 # Testing
-ELABORATE
+Testing has been performed for its Performance, Accessibility, Best Practices and SEO.
+- With overall reviews for desktops & mobiles on 99%, under Chromes icognito mode.
+
+<img src="./images/lighthouse.png" alt="lighthouse">
 
 ## Development & Deployment
 The project was developed using GitHub and GitPod platforms.
@@ -52,6 +57,23 @@ The website was deployed via Github
 - From here the "Source" should be set to "Deploy from branch".
 - On "Branch" select "main" and save.
 - The website was deployed via Github and the live website can be found [here](https://tiagoma90.github.io/stopwatch/).
+
+# Technologies
+## Languages
+The website was written under HTML5, CSS3, Bootstrap, & JS(ES6).
+
+- HTML5 - Structure of the page
+- CSS3 - Style of the page
+- JSES6 - Logic and interactivity of the page
+- Bootstrap
+
+Other forms of development as follows:
+- FontAwesome - Source of icons
+- Github - Host for the repository
+- Gitpod - Code editor
+- Chrome DevTools - Testing tool
+- WAVE Evaluation tool - Testing tool
+- Bytes.dev - Testing screen sizes
 
 ## Fonts & icons:
 - The Fonts displayed in this website were imported from [Google Fonts](https://fonts.googleapis.com/css2?family=Rubik+Lines&display=swap), but later commented out for its simplicity and readability.
