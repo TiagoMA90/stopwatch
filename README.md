@@ -27,7 +27,7 @@ The website was developed with the intent to offer interactive features:
 
 ## Styling
 - The color palette chosen for this website, makes use of a dark background, followed by a vibratnt red text for the timer.
-- The buttons have been colored accordingly for the Play, Pause, reset buttons (Green, Blue, Red), with a boreder around it. When hovered the buttons display a stand out effect.
+- The buttons have been colored accordingly for the Play, Pause & Rreset buttons (Green, Blue, Red), with a boreder around it. When hovered the buttons display a stand out effect.
 - The icon above the timer, of a hourgalss was animated according to the actions of a user. When "Play" is pressed, it rotates clockwise. When "Pause" is hit, the hourglass rests sideways. When "Stop" is pushed, the hourglass is marked as empty from the start. 
 
 # Testing
