@@ -20,11 +20,6 @@ The website was developed with the intent to offer interactive features:
 - Buttons and its responsiveness when pressed/on clicked, during its incrementation.
 - Sounds and its responsiveness when pressed. (Feature removed during development)
 
-# Process
-## Skeleton
-- The website took a "Mobile-First" approach, as it is primarly targeted for people using mobile devices.
-- The structure of the page can be more or less defined and follows the skeleton for the overall website as seen below:
-
 ## Styling
 - The color palette chosen for this website, makes use of a dark background, followed by a vibratnt red text for the timer.
 - The buttons have been colored accordingly for the Play, Pause & Rreset buttons (Green, Blue, Red), with a boreder around it. When hovered the buttons display a stand out effect.
